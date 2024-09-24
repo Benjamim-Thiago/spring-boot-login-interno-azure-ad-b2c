@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https:// # Tem no token JWT, pegue e coloque aqui
+          audiences: https:// # Tem no token JWT, pegue e coloque aqui
+logging:
+  level:
+    org.springframework.security: DEBUG
